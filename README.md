@@ -10,3 +10,8 @@ echo \
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo usermod -aG docker $USER
+```
+## Install Python and PIP and Venv 
+```bash
+sudo apt update && sudo apt install -y python3 python3-pip python3-venv python3-dev build-essential libssl-dev libffi-dev libsqlite3-dev wget curl git
+```
